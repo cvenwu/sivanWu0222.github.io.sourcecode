@@ -1,0 +1,32 @@
+{
+    "define": {
+	       "readed": "已读",
+         "reading": "在读",
+         "wanted": "想读"
+    },
+    "contents": {
+        "readed": [{
+            "title": "Java语言程序设计",
+            "cover": "https://gd4.alicdn.com/imgextra/i1/0/TB10jfPIVXXXXXLXpXXXXXXXXXX_!!0-item_pic.jpg_400x400.jpg",
+            "review": "内容设计比较多，读者需多用心，多多体会Java的精髓",
+            "score": "9",
+            "doubanLink": "https://book.douban.com/subject/26590745/"
+        }],
+
+		"reading": [{
+            "title": "大数据时代",
+            "cover": "https://img3.doubanio.com/lpic/s24574862.jpg",
+            "review": "数据时代悄然来临，数据作为计算机的黄金逐步被利用起来，本书牵扯到了大数据的历史渊源，发展，以及现状",
+            "score": null,
+            "doubanLink": "https://book.douban.com/subject/20429677/"
+        }],
+
+        "wanted": [{
+            "title": "大数据-互联网大规模数据挖掘与分布式处理",
+            "cover": "https://img1.doubanio.com/lpic/s22783787.jpg",
+            "review": "",
+            "score": null,
+            "doubanLink": "https://book.douban.com/subject/19934150/"
+        }]
+    }
+}
