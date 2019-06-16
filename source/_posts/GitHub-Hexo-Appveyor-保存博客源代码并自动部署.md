@@ -14,7 +14,6 @@ reward: true
 comment: true
 top: 2
 repo: 'sivanWu0222 | MasterPythonWebCrawler#用户名 | 仓库名'
-src: 'i.loli.net/2017/12/12/5a2fd18a74471.jpg'
 date: 2019-06-16 17:51:34
 description:
 ---
