@@ -1,8 +1,17 @@
 ---
-title: git基本指令
+title: 版本管理工具-Git篇[2]
 date: 2017-07-01 19:23:14
-tags: [git,GitHub]
-categories: 常用命令
+tags:
+  - git
+  - GitHub
+  - 版本管理工具
+share: true
+categories:
+  - git
+  - 入门
+reward: true
+comment: true
+top: 2
 ---
 
 # git基本指令
@@ -32,9 +41,9 @@ categories: 常用命令
 #### 针对某个项目进行配置
 
 > 不采用 --global 选项，就是针对某个特定的项目进行配置，而不是全局配置
-    
-    git config user.name "这里写上你的用户名"
-    git config user.email "这里写上你的邮箱"
+
+    git config --local user.name "这里写上你的用户名"
+    git config --local user.email "这里写上你的邮箱"
 
 
 <!-- more -->
@@ -58,7 +67,6 @@ categories: 常用命令
 > 对于一些忘记自己目前Git配置信息的用户，可以使用如下指令进行查看
 
     git config --list
-    
 
 
 ----------

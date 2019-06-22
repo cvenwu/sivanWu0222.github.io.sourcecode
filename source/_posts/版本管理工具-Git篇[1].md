@@ -1,17 +1,9 @@
 ---
 title: 版本管理工具-Git篇[1]
 date: 2017-01-15  10:56:21
-tags:
-  - git
-  - GitHub
-  - 版本管理工具
-share: true
-categories:
-  - git
-  - 入门
-reward: true
-comment: true
-top: 2
+tags: [Git,Tools]
+categories: Tools
+
 
 ---
 
@@ -29,6 +21,7 @@ top: 2
 
 ### 历史
 
+![这里写图片描述](http://on3w7gc9m.bkt.clouddn.com/psb.png)
 
 1. CVS： 版本管理工具始祖，也是被第一个大规模使用的版本管理工具。由荷兰一所大学教授所开发，由于当时三个人分开工作，为了便于一起协调，创建了CVS。集中式的工具，放到中心服务器上，需要联网
 
