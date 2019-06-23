@@ -15,7 +15,7 @@ date: 2019-06-22 18:35:54
 description:
 ---
 
-![git三棵树](git 三棵树.png)
+![git三棵树](git三棵树.png)
 
 ## git reset 命令
 
