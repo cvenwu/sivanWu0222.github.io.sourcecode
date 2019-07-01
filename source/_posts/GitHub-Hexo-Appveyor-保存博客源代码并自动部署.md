@@ -19,6 +19,7 @@ description:
 ---
 
 [参考](https://www.jianshu.com/p/db9a95078b16)
+[参考2](https://formulahendry.github.io/2016/12/04/hexo-ci/)
 
 ## 前言
 
