@@ -145,9 +145,9 @@ layout: about
 <center><a href="https://www.cnblogs.com/crazyacking">博客</a></center>
 <center><a href="https://github.com/crazyacking">GitHub</a></center>
 
+}
 
-}  
-
+@card{
 
 ### 在路上
 
