@@ -4,7 +4,7 @@ date: 2017-03-20 10:08:41
 layout: about
 ---
 
-{% image ./index/1.jpg 糟了，网络出错了 博主 small %}   
+{% image ./index/2.jpg 糟了，网络出错了 博主 small %}   
 
 {% image http://ghchart.rshah.org/sivanWu0222 糟了，网络出错了 GitHub活跃记录 %}   
 
@@ -113,7 +113,7 @@ layout: about
 ##### 2019
 @item{
 
-###### 1月-13月
+###### 1月-3月
 
 寒假学习Python + 准备复试
 
@@ -121,9 +121,17 @@ layout: about
 
 @item{
 
-###### 4月-now
+###### 4月-9月
 
-开挂中~~~~~~
+潜心修炼
+
+}
+
+@item{
+
+###### 9月-now
+
+为了成为自己想成为的 geek 努力
 
 }
 
