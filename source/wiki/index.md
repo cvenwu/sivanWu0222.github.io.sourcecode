@@ -20,6 +20,28 @@ top: 1 #置顶层级(数字越大，优先级越高)
 1. Note express
 2. Endnote
 3. mendeley(lr用)
+
+## 科研画图工具
+1. [高大上的网络结构图(在线画) ](http://alexlenail.me/NN-SVG/)
+
+
+## mac 下安装dlib
+> https://www.jianshu.com/p/3e0b7d1ddc56
+
+## dlib库的使用
+[dlib库的使用](https://www.cnblogs.com/AdaminXie/p/9032224.html)
+
+
+## mac下使用不了cmake命令解决办法
+> 从官网下载了cmake ，但是使用terminal 说cmake not found
+> CMake http://www.cmake.org/ 
+> 打开 home 目录下的 .bash_profile 文件加入下面两句：
+```
+     # Add Cmake Root to Path
+     export CMAKE_ROOT=/Applications/CMake.app/Contents/bin/
+     export PATH=$CMAKE_ROOT:$PATH
+```
+
     
 
 # 第一周总结(2019.09.16-2019.09.20)
