@@ -50,7 +50,16 @@ with open(os.path.join(self.root, filename)) as f:
         labels.append(label)
 ```
 
+## glob库的使用
+> glob根据指定文件名字的规则进行文件名的搜寻，并返回一个列表
 
+```python
+# glob模块根据规则匹配特定的文件名字并返回一个列表,所以采用+将列表进行拼接而不是作为元素加入列表中
+            images += (glob.glob(os.path.join(self.root, name, '*.png')))
+            images += (glob.glob(os.path.join(self.root, name, '*.jpeg')))
+            images += (glob.glob(os.path.join(self.root, name, '*.jpg')))
+
+```
 
 ## 使用os内置库创建目录
 
