@@ -1,15 +1,32 @@
 ---
-title: paper
-date: 2019-11-11 12:23:20
+title: Python 线程池爬虫的简单使用
+tags:
+  - Python
+  - Concurrent
+share: true
+categories:
+  - Python
+  - 多线程
+reward: true
+comment: true
+top: 2
+repo: 'sivanWu0222 | BaiduMapSpider'
+date: 2019-11-30 16:37:18
+description:
 ---
 
 # python使用线程池进行编程
+
+```
 import concurrent
 from concurrent import futures  # 做多线程和多进程编程
 from concurrent.futures import ThreadPoolExecutor
 from concurrent.futures import as_completed
+```
 
 # 线程池
+
+```
 ## 为什么需要线程池
 ## 主线程中可以获取某一个线程的状态或者某一个任务的状态以及返回值
 ## 当一个线程完成的时候我们主线程也可以立即知道
@@ -59,9 +76,9 @@ all_tasks = [executor.submit(get_html, url) for url in urls]
 # 通过executor获取已经完成的task， 会按照urls中的元素的顺序执行，但也是并发只是会等待
 # for data in executor.map(get_html, urls):  # 直接返回执行的结果
 #     print(data)
+```
 
-
-
+<!--more-->
 ## json使用
 
 > json.loads() 参数是一个str,可以将str转换为dict
@@ -171,63 +188,3 @@ if __name__ == '__main__':
     run()
 
 ```
-
-## csv 库的使用
-
-### 写csv文件
-
-```python
-import csv
-if __name__ == '__main__':
-    with open('result.csv', "a+", newline='') as f:
-        writer = csv.writer(f, delimiter=':')  # delimiter用于csv文件中分隔符的显示,默认是,
-        writer.writerow(['1', '2', 3])
-```
-
-
-
-
-
-## 使用os内置库创建目录
-
-
-```python
-
-import argparse
-import os
-
-# 创建目录存放生成的图片
-## os.makedirs 会递归创建目录
-## os.mkdir 只会创建子目录
-os.makedirs('images', exist_ok=True)  # 如果exist_ok是False,目标目录存在时返回OSError
-os.mkdir('path') 
-
-```
-
-## 从一个对象知道对应的类的名字
-
-```python
-
-def class_name(cl):
-    # return cl.__class__  # <class '__main__.config'>
-    return cl.__class__.__name__  # 返回类名字 config
-
-class config:
-    def __init__(self):
-        pass
-
-
-if __name__ == '__main__':
-    con = config()
-    print(class_name(con))
-```
-
-## 
-np.prod() 默认计算所有元素乘积，无论传入进来的是一个向量还是一个tensor, 可以指定axis=1用来获取每一行的乘积
-
-
-
-
-## Conclusion
-1. Finally, **so far** transfer learning **techniques** have been mainly applied to **small scale applications** with **a limited variety**
-2. 
