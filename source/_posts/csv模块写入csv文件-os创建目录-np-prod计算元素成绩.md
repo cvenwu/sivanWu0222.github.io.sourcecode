@@ -30,6 +30,8 @@ if __name__ == '__main__':
  
 np.prod() 默认计算所有元素乘积，无论传入进来的是一个向量还是一个tensor, 可以指定axis=1用来获取每一行的乘积
 
+<!--more-->
+
 ### 写入和读取csv文件
 ```python
 with open(os.path.join(self.root, filename), mode='w', newline='') as f:
@@ -107,4 +109,3 @@ result = np.prod(a)  # 当指定axis=1,求行的乘积
 
 
 
-<!--more-->

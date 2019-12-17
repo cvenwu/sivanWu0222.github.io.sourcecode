@@ -1,5 +1,5 @@
 ---
-title: '[Paper_TL]A survery on transfer learning'
+title: 'A survey on transfer learning'
 tags:
   - Paper
   - notes
@@ -36,6 +36,8 @@ discussed in a NIPS-95 workshop on “Learning to Learn” 1, which focused on t
 > Transfer learning is classified to three different settings: inductive transfer learning, transductive transfer learning and unsupervised transfer learning. Most previous works focused on the former two settings. Unsupervised transfer learning may attract more and more attention in the future.
 
 ![根据方式进行分类](根据方式分类.png)
+
+<!--more-->
 
 ### inductive learning:(任务不同，域相同)
 the target task is different from the source task, no matter when the source and target domains are the same or not.
