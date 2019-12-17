@@ -43,6 +43,7 @@ with open(os.path.join(self.root, filename), mode='w', newline='') as f:
 with open(os.path.join(self.root, filename)) as f:
     reader = csv.reader(f)
     for line in reader:
+        ## line 将会被认为是一个列表，将行尾部的换行符去掉之后将剩下的内容按照,进行划分得到的列表
         img, label = line
         label = int(label)
         

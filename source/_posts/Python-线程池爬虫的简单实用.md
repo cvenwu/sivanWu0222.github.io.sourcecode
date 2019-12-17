@@ -17,7 +17,7 @@ description:
 
 # python使用线程池进行编程
 
-```
+```python
 import concurrent
 from concurrent import futures  # 做多线程和多进程编程
 from concurrent.futures import ThreadPoolExecutor
@@ -26,7 +26,7 @@ from concurrent.futures import as_completed
 
 # 线程池
 
-```
+```python
 ## 为什么需要线程池
 ## 主线程中可以获取某一个线程的状态或者某一个任务的状态以及返回值
 ## 当一个线程完成的时候我们主线程也可以立即知道
