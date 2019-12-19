@@ -10,7 +10,10 @@ date: 2019-04-06 14:52:54
 
 ## Direction
 
-Machine Learning, Data Mining, CV
+Machine Learning, Data Mining, CV. 
+Advised by [Leyuan Liu](http://nercel.ccnu.edu.cn/info/1072/3107.htm)
+
+Welcome to contact me.
 
 -------------
 
