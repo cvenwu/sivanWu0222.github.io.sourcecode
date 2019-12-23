@@ -38,13 +38,14 @@ imread()方法对图片进行数据的读取
 3. 该方法完成图片的读取，返回的是当前图片的图像数据
 4. 虽然表面上看只是图像读取，但是包含了几个步骤，文件的读取，图像格式的分析，图像数据的解码，数据的加载
 
+<!--more-->
+
 ```python
+import cv2
 img = cv2.imread('./image0.jpg', 1)
 (b, g, r) = img[100, 100]
 print(b, g, r)
 ```
-
-
 
 **opencv中读取图像后获得的像素点是bgr(blue, green, red)与rgb不同**
 
@@ -61,7 +62,7 @@ imshow()对图片进行展示
 
 ```python
 cv2.imshow('image', img)
-# 防止一瞬间消失掉后看不到图片
+# 防止一瞬间消w失掉后看不到图片
 cv2.waitKey(0)
 ```
 
@@ -117,7 +118,7 @@ cv2.imwrite('imageTest.png', img, [cv2.IMWRITE_PNG_COMPRESSION, 0])
 
 ## 坐标轴
 
-{% image ./OpenCV-TensorFlow-入门人工智能图像处理-1/坐标轴.png 糟了 这是标题%}   
+{% image 坐标轴.png 糟了 opencv中的坐标轴%}   
 
 x轴对应垂直高度的变化
 
@@ -126,11 +127,8 @@ x轴对应垂直高度的变化
 ## 图像基础知识
 
 - 像素点(像素)：图像是由一个个方块组成，每个方块称为像素点，
-
 - 每种颜色都是由RGB三种颜色分量组合而成。
-
 - 像素点如何存储：在计算机中，每种颜色都可以通过RGB三种颜色进行合成，在8位颜色深度中，每个RGB对应的分量取值都是0-255
-
 - 颜色深度：8位颜色深度，表示的是RGB每个分量中， 都有2^8个可能
 - 对于png图片来说，每一个像素点除了RGB之外，还可能有α通道作为透明度
 - 经常见到的颜色存储格式：RGB(red, green, blue) 、BGR(blue, green, red)
