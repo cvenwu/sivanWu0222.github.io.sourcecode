@@ -218,3 +218,6 @@ cv2.destroyAllWindows()
 
 ## 参考
 [learnopencv](https://github.com/spmallick/learnopencv/blob/master/VideoReadWriteDisplay/videoWrite.py)
+[cv2.VideoWriter()](https://blog.csdn.net/weixin_36670529/article/details/100977537)
+[OpenCV—Python视频的读取及保存
+](https://blog.csdn.net/wsp_1138886114/article/details/84798977)
