@@ -1,5 +1,5 @@
 ---
-title: 'OpenCV+TensorFlow 入门人工智能图像处理[1]'
+title: 'OpenCV--预热'
 tags:
   - OpenCV
   - TensorFlow
